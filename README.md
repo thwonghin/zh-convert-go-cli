@@ -5,7 +5,6 @@ This is a command-line wrapper for the [Fanhuaji](https://zhconvert.org) API. It
 ## Features
 
 * Full support for all Fanhuaji conversion options
-* Automatically maps CLI arguments to API fields
 * Accepts input via stdin, writes output to stdout
 
 ## Usage
