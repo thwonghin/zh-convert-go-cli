@@ -11,19 +11,25 @@ This is a command-line wrapper for the [Fanhuaji](https://zhconvert.org) API. It
 
 ```sh
 # Convert text using stdin
-cat input.txt | ./zhconvert --converter=Traditional > output.txt
+cat input.txt | zhconvert --converter=Traditional > output.txt
 ```
 
 ### Example
 
 ```sh
-echo "繁體字測試" | ./zhconvert --converter=Simplified
+echo "繁體字測試" | zhconvert --converter=Simplified
 ```
 
 ## Building
 
 ```sh
 make build
+```
+
+## Install
+
+```sh
+make install
 ```
 
 ## Disclaimer
